@@ -1,4 +1,4 @@
-#importandoi módulos necessários. Socket para conexão, sys para passagem de argumento ao rodar o script (ip)
+#importando módulos necessários. Socket para conexão, sys para passagem de argumento ao rodar o script (ip)
 # e o threading para realizar um processamento acelerado do scan de portas, diferente do scan de portas sequencial.
 import socket, sys, threading 
 
