@@ -7,6 +7,8 @@ def scan_porta(port):
     
     #estabelencendo conexão (socket - porta)
     meu_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    #definindo timeout da conexão
     meu_socket.settimeout(0.5)
     
     #fazendo validação. O método 'connect_ex' retorna 0 de a conexão for estabelecida
